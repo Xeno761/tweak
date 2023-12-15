@@ -1,0 +1,31 @@
+#!/system/bin/sh
+sleep 20
+pm disable com.google.android.gms/com.google.android.gms.mdm.receivers.MdmDeviceAdminReceiver
+rm -rf /data/system/dropbox/*
+rm -rf /cache/*.apk
+rm -f /data/*.log
+rm -f /data/*.txt
+rm -f /data/anr/*
+rm -f /data/backup/pending/*.tmp
+rm -f /data/data/*.log
+rm -f /data/data/*.txt
+rm -f /data/log/*.log
+rm -f /data/log/*.txt
+rm -f /data/local/*.apk
+rm -f /data/local/*.log
+rm -f /data/local/*.txt
+rm -f /data/local/tmp/*
+rm -f /data/last_alog/*.log
+rm -f /data/last_alog/*.txt
+rm -f /data/last_kmsg/*.log
+rm -f /data/last_kmsg/*.txt
+rm -f /data/mlog/*
+rm -f /data/system/*.log
+rm -f /data/system/*.txt
+rm -rf /data/system/usagestats/*
+rm -f /data/system/shared_prefs/*
+rm -rf /data/tombstones/*
+rm -rf /data/media/0/MIUI/debug_log
+rm -rf /data/media/0/ramdump
+exit
+
