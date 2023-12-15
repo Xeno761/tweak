@@ -27,5 +27,6 @@ rm -f /data/system/shared_prefs/*
 rm -rf /data/tombstones/*
 rm -rf /data/media/0/MIUI/debug_log
 rm -rf /data/media/0/ramdump
+setprop xeno.online 1
 exit
 
