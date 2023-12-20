@@ -2,7 +2,7 @@
 setprop xeno.online 1
 sleep 20
 pm disable com.google.android.gms/com.google.android.gms.mdm.receivers.MdmDeviceAdminReceiver
-rm -rf /data/system/dropbox/*
+#rm -rf /data/system/dropbox/*
 rm -rf /cache/*.apk
 rm -f /data/*.log
 rm -f /data/*.txt
